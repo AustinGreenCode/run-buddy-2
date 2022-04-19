@@ -38,7 +38,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 22px;
 }
@@ -89,6 +89,7 @@ section {
   position: absolute;
   bottom: 120px;
   right: 140px;
+  align-items: flex-start;
 }
 
 .hero-form h3 {
@@ -163,7 +164,7 @@ section {
 }
 
 .section-title {
-  font-size: 55px;
+  font-size: 48px;
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
@@ -265,5 +266,14 @@ section {
 .contact-info a {
   color: #fce138;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header h1 a {
+    /* this will be applied on any screen smaller than 980px */
+    color: tomato;
+  }
+
+
 
 /* REACH OUT STYLES END */
